@@ -1,0 +1,39 @@
+{
+    "compilerOptions": 
+    {
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "target": "es6",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "baseUrl": "./",
+      "paths": {
+        "@services": [
+          "src/components/services/index"
+        ],
+        "@controllers": [
+          "src/components/controllers/index"
+        ],
+        "@types": [
+          "src/components/types/index"
+        ],
+        "@exceptions" : [
+          "src/exceptions/index"
+        ],
+        "@middlewares" : [
+          "src/middlewares/index"
+        ],
+        "@config": [
+          "src/config/index"
+        ],
+        "@database": [
+          "src/database/index"
+        ],
+        "@routes": [
+          "src/router/index"
+        ],
+      },
+      "outDir": "dist"
+    },
+    "lib": ["es2015"]
+}
